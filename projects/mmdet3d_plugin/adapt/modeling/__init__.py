@@ -1,0 +1,1 @@
+from load_bert import get_bert_model
