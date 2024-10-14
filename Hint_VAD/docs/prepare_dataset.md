@@ -37,14 +37,11 @@ VAD
 │   │   ├── basemap/
 │   │   ├── can_bus/
 │   │   ├── command/
-│   │   ├── DriveLM/
 │   │   ├── lidarseg/
 │   │   ├── map_anns/
 │   │   ├── maps/
 │   │   ├── prediction/
-│   │   ├── QA/
 │   │   ├── samples/
 │   │   ├── tod3/
-│   │   ├── video/
 │   │   ├── video_cap/
 ```

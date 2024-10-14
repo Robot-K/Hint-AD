@@ -38,7 +38,6 @@ Hint-VAD
 │   │   ├── nuscenes_infos_vad_val.pkl
 │   ├── nuscenes
 │   │   ├── video_cap
-│   │   │   ├── commands.json
 │   │   │   ├── Nuscenes_X_train.json
 │   │   │   ├── Nuscenes_X_val.json
 │   │   ├── QA/

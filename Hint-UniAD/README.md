@@ -52,7 +52,6 @@ Hint-UniAD
 ├── data/
 │   ├── nuscenes/
 │   │   ├── video_cap/
-│   │   │   ├── commands.json
 │   │   │   ├── Nuscenes_X_train.json
 │   │   │   ├── Nuscenes_X_val.json
 │   │   ├── QA/

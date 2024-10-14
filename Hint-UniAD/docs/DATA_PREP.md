@@ -31,29 +31,41 @@ mkdir others && cd others
 wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/motion_anchor_infos_mode6.pkl
 ```
 
+**Download Nu-X dataset from release**
+```shell
+mkdir -p Hint-AD/data/nuscenes/video_cap
+cd Hint-AD/data/nuscenes/video_cap
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/Nu_X_train.pkl
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/Nu_X_val.pkl
+```
+
+**Download TOD3 dataset from release**
+```shell
+mkdir -p Hint-AD/data/nuscenes/tod3
+cd Hint-AD/data/nuscenes/tod3
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/bevcap-bevformer-trainval_infos_temporal_train.pkl
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/bevcap-bevformer-trainval_infos_temporal_val.pkl
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/final_caption_bbox_token.pkl
+```
+
 **The Overall Structure**
 
 *Please make sure the structure of Hint-AD is as follows:*
 ```
 Hint-AD
 ├── data/
-│   ├── nuscenes/
-│   │   ├── video_cap/
-│   │   │   ├── commands.json
-│   │   │   ├── Nuscenes_X_train.json
-│   │   │   ├── Nuscenes_X_val.json
-│   │   ├── QA/
-│   │   ├── tod3/
 │   ├── infos/
 │   │   ├── nuscenes_infos_capQAcmd_train.pkl
 │   │   ├── nuscenes_infos_capQAcmd_val.pkl├── data/
 │   ├── nuscenes/
 │   │   ├── video_cap/
-│   │   │   ├── commands.json
 │   │   │   ├── Nuscenes_X_train.json
 │   │   │   ├── Nuscenes_X_val.json
 │   │   ├── QA/
 │   │   ├── tod3/
+│   │   │   ├── bevcap-bevformer-trainval_infos_temporal_train.pkl
+│   │   │   ├── bevcap-bevformer-trainval_infos_temporal_val.pkl
+│   │   │   ├── final_caption_bbox_token.json
 │   ├── infos/
 │   │   ├── nuscenes_infos_capQAcmd_train.pkl
 │   │   ├── nuscenes_infos_capQAcmd_val.pkl
