@@ -56,8 +56,10 @@ Hint-UniAD
 │   │   │   ├── Nuscenes_X_train.json
 │   │   │   ├── Nuscenes_X_val.json
 │   │   ├── QA/
-│   │   ├── DriveLM/
 │   │   ├── tod3/
+│   │   │   ├── bevcap-bevformer-trainval_infos_temporal_train.pkl
+│   │   │   ├── bevcap-bevformer-trainval_infos_temporal_val.pkl
+│   │   │   ├── final_caption_bbox_token.json
 │   ├── infos/
 │   │   ├── nuscenes_infos_capQAcmd_train.pkl
 │   │   ├── nuscenes_infos_capQAcmd_val.pkl

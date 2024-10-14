@@ -42,7 +42,10 @@ Hint-VAD
 │   │   │   ├── Nuscenes_X_train.json
 │   │   │   ├── Nuscenes_X_val.json
 │   │   ├── QA/
-│   │   ├── DriveLM/
+│   │   ├── tod3/
+│   │   │   ├── bevcap-bevformer-trainval_infos_temporal_train.pkl
+│   │   │   ├── bevcap-bevformer-trainval_infos_temporal_val.pkl
+│   │   │   ├── final_caption_bbox_token.json
 ├── projects
 │   ├── configs
 │   │   ├── VAD
