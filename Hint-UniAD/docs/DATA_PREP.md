@@ -35,8 +35,8 @@ wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0/motion_anchor_
 ```shell
 mkdir -p Hint-AD/data/nuscenes/video_cap
 cd Hint-AD/data/nuscenes/video_cap
-wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/Nu_X_train.pkl
-wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/Nu_X_val.pkl
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/Nu_X_train.json
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/Nu_X_val.json
 ```
 
 **Download TOD3 dataset from release**
@@ -45,7 +45,7 @@ mkdir -p Hint-AD/data/nuscenes/tod3
 cd Hint-AD/data/nuscenes/tod3
 wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/bevcap-bevformer-trainval_infos_temporal_train.pkl
 wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/bevcap-bevformer-trainval_infos_temporal_val.pkl
-wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/final_caption_bbox_token.pkl
+wget https://github.com/Robot-K/Hint-AD/releases/download/v1.0/final_caption_bbox_token.json
 ```
 
 **The Overall Structure**
