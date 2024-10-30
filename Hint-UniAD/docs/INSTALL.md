@@ -71,7 +71,7 @@ wget https://github.com/OpenDriveLab/UniAD/releases/download/v1.0.1/uniad_base_e
 ```
 
 
-**h. Other necessary source code.**
+**i. Other necessary source code.**
 
 We've provided them already, please do
 ```shell
